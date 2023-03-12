@@ -1,0 +1,22 @@
+{
+  "name": "threejs-sample",
+  "version": "1.0.0",
+  "description": "Three.js を使って遊ぶためのリポジトリ",
+  "scripts": {
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotoeveryone/threejs-sample.git"
+  },
+  "author": "gotoeveryone",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
